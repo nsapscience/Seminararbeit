@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 from ultralytics import YOLO
 
-model = YOLO(r"E:\Seminararbeit\runs\detect\train17\weights\best.pt") #Pfad zur KI
+model = YOLO(r"-") #Pfad zur KI
 
 model.model.names = {0: 'Kratzer', 1: 'fehlendes Material', 2: 'Fleck', 3: 'Anguss noch dran'} #Beschreiung der Klassen
 

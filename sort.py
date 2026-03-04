@@ -2,7 +2,7 @@ import os #Interaktion mit dem Betriebssystem
 import shutil #Verschieben von Dateien
 import random #Mischen der Daten
 
-base_path = r"E:\Seminararbeit\dataset" #Pfad zu der Datenbank
+base_path = r"E:\Datenbank" #Pfad zu der Datenbank
 images_path = os.path.join(base_path, "images") #Pfad zu den Bildern
 labels_path = os.path.join(base_path, "labels") #Pfad zu den Label
 
