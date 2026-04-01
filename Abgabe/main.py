@@ -7,8 +7,8 @@ model = YOLO(r"D:\Seminararbeit\runs\detect\train20\weights\best.pt") #Pfad zur 
 
 model.model.names = {0: 'Kratzer', 1: 'fehlendes Material', 2: 'Fleck', 3: 'Anguss noch dran'} #Beschreiung der Klassen
 
-cap1 = cv2.VideoCapture(0) #Initialisierung der Kameras
-cap2 = cv2.VideoCapture(1)
+cap1 = cv2.VideoCapture(1) #Initialisierung der Kameras
+cap2 = cv2.VideoCapture(2)
 
 while True:
     ret1, img1 = cap1.read()
